@@ -1,0 +1,260 @@
+body
+{
+	background-color: #404040;
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+#menu
+{
+	background-color: #303030;
+	margin-top: 20px;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	line-height: 200%;
+	background-color: #303030;
+	height: 40px;
+	font-size: 18px;
+	display: inline-block;
+	
+	
+}
+
+ol a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ol > li {
+	float: left;
+	min-width: 150px;
+	border-right: 2px dotted #444444;
+	padding: 5px;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ol > li:first-child {
+	border-left: 2px dotted #444444;
+}
+
+ol > li:hover > a {
+	background-color: #000000;
+	cursor: pointer;
+}
+
+ol > li > ul {
+	list-style-type: none;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	display: none;
+	font-size: 16px;
+}
+
+ol > li:hover > ul {
+	display: block;
+}
+
+ol > li > ul > li {
+	background-color: #303030;
+	border: 1px dotted #444444;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ol > li > ul > li:hover {
+	background-color: #000000;
+	cursor: pointer;
+}
+
+ol > li > ul > li:hover > a {
+	color: #444444;
+}
+
+#topbar
+{
+	background-color: #128870;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 170px;
+}
+
+#topbarL
+{
+	float:left;
+	padding: 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px dotted #cccccc;
+}
+
+#topbarR
+{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#sidebar
+{
+	float: left;
+	width: 148px;
+	min-height: 620px;
+	padding:20px;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #666666;
+}
+
+#content
+{
+	float: left;
+	padding: 40px;
+	width: 730px;
+	background-color: #dedede;
+	min-height: 580px;
+	text-align: justify;
+}
+
+#footer
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
+
+/* .option
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+	background-color: #303030;
+}
+*/
+.optionL
+{
+	font-size:18px;
+	height:25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.optionL:hover
+{
+	background-color: #f36742;
+	color: white;
+	cursor: pointer;
+}
+
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444;
+}
+
+#socials {
+	width: 100%;
+	text-align: center;
+	background-color: #292929;
+}
+
+#social-div {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fb {
+	width: 250px;
+	height: 50px;
+	float:left;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#fb:hover {
+	background-color: #4668b3;
+	cursor: pointer;
+	
+}
+
+#yt {
+	width: 250px;
+	height: 50px;
+	float:left;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#yt:hover {
+	background-color: #d94348;
+	cursor: pointer;
+}
+
+#tw {
+	width: 250px;
+	height: 50px;
+	float:left;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#tw:hover {
+	background-color: #3095d3;
+	cursor: pointer;
+}
+
+#g {
+	width: 250px;
+	height: 50px;
+	float:left;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#g:hover {
+	background-color: #d95333;
+	cursor: pointer;
+}
